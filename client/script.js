@@ -99,7 +99,7 @@ const handleSubmit = async (e) => {
 	loader(messageDiv);
 
 	//fetch the data from the server :>bot response
-	const response = await axios("http://localhost:5000/", {
+	const response = await axios("https://youai.onrender.com", {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
